@@ -16,6 +16,8 @@ a:hover, a:focus, a:active {
 }
 
 .preloader {
+  top: 0;
+  left: 0;
   position: fixed;
   z-index: 100;
   background: #fff;
