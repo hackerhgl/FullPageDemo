@@ -1,0 +1,67 @@
+doctype html
+html(lang="en")
+  head
+    title Life of pie
+    meta(name="viewport",content="width=device-width,initial-scale=1")
+    meta(http-equiv="Content-Type",content="text/html; charset=UTF-8")
+    meta(http-equiv="X-UA-Compatible",content="IE=edge")
+    link(href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200italic,200,300,300italic,400italic,600,600italic,700,700italic,900,900italic",rel="stylesheet")
+    link(href="css/bootstrap.css",rel="stylesheet")
+    link(href="css/font-awesome.css",rel="stylesheet")
+    link(href="css/style.css",rel="stylesheet")
+    link(href="css/fullPage.css",rel="stylesheet")
+    link(href="css/animate.css",rel="stylesheet")
+  -var h = "What is Lorem Ipsum?"
+  -var t = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+  body
+    .preloader
+      .c1.c
+      .c2.c
+    ul#nav
+      .i
+        li(data-menuanchor="first")
+          a(href="#first") first
+          .bgx
+        li(data-menuanchor="second")
+          a(href="#second") second
+          .bgx
+        li(data-menuanchor="third")
+          a(href="#third") third
+          .bgx
+        li(data-menuanchor="fourth")
+          a(href="#fourth") fourth
+          .bgx
+        li(data-menuanchor="fifth")
+          a(href="#fifth") fifth
+          .bgx
+
+    div#fullpage
+      div.section
+        .i
+          h1= h
+          p=t
+      div.section
+        .i
+          h1= h
+          p=t
+      div.section
+        .i
+          h1= h
+          p=t
+      div.section
+        .i
+          h1= h
+          p=t
+      div.section
+        .i
+          h1= h
+          p=t
+
+    script(src="js/jquery.js")
+    script(src="js/bootstrap.js")
+    script(src="js/fullPage.js")
+    script(src="js/easings.js")
+    script(src="js/scrolloverflow.js")
+    script(src="js/wow.js")
+    script(src="js/scrollReveal.js")
+    script(src="js/script.js")
