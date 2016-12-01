@@ -21,6 +21,7 @@ a:hover, a:focus, a:active {
   background: #fff;
   width: 100%;
   height: 100%;
+  z-index: 9999;
 }
 
 .preloader .c {
@@ -32,7 +33,6 @@ a:hover, a:focus, a:active {
   margin: -1.5em;
   border-radius: 50%;
   background: rgba(255, 0, 0, 0.5);
-  z-index: 9999;
 }
 
 .preloader .c1 {
@@ -80,7 +80,7 @@ a:hover, a:focus, a:active {
   position: fixed;
   padding: 1em;
   top: 50%;
-  right: 0;
+  right: 0
 }
 
 #nav {
